@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Foodio - Menu 2</title>
+   <link rel="icon" href="assets/img/logo-icon.png">
+   <!-- CSS only -->
+   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+   <!-- fancybox -->
+   <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+   <!-- Font Awesome 6 -->
+   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+   <!-- style -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+   <!-- color -->
+   <link rel="stylesheet" href="assets/css/color.css">
+   <!-- jQuery -->
+   <script src="assets/js/jquery-3.6.0.min.js"></script>
+   <script src="assets/js/preloader.js"></script>
+</head>
+
+<body>
+   <!-- preloader -->
+   <div class="preloader">
+      <div class="container">
+         <div class="dot dot-1"></div>
+         <div class="dot dot-2"></div>
+         <div class="dot dot-3"></div>
+      </div>
+   </div>
+   <!-- end preloader -->
+   <header class="three" style="background-color: #000;">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-xl-3">
+               <div class="logo">
+                  <a href="index.html"><img alt="logo-white" src="assets/img/logo-white-color.png"></a>
+                  <div class="bar-menu">
+                     <a href="javascript:void(0)">
+                        <i class="fa-solid fa-bars"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3">
+               <div class="contact">
+                  <div>
+                     <i>
+                        <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg">
+                           <g data-name="06-Location">
+                              <path
+                                 d="m25 21.61a1 1 0 1 0 -.84 1.82c1.37.57 1.84 1.23 1.84 1.57 0 1.19-4 3-10 3s-10-1.81-10-3c0-.34.47-1 1.8-1.57a1 1 0 1 0 -.8-1.82c-2.49 1.12-3 2.46-3 3.39 0 3.28 6 5 12 5s12-1.72 12-5c0-.93-.51-2.27-3-3.39z" />
+                              <path
+                                 d="m15.45 25.83a1 1 0 0 0 1.1 0c.39-.26 9.45-6.38 9.45-13.83a10 10 0 0 0 -20 0c0 7.45 9.06 13.57 9.45 13.83zm.55-21.83a8 8 0 0 1 8 8c0 5.41-6.1 10.36-8 11.77-1.9-1.41-8-6.36-8-11.77a8 8 0 0 1 8-8z" />
+                              <path d="m21 12a5 5 0 1 0 -5 5 5 5 0 0 0 5-5zm-8 0a3 3 0 1 1 3 3 3 3 0 0 1 -3-3z" />
+                           </g>
+                        </svg>
+                     </i>
+                  </div>
+                  <div>
+                     <span>5 Roncesvalles Ave, </span>
+                     <h6>Toronto.</h6>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3">
+               <div class="contact">
+                  <i>
+                     <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg">
+                        <g id="_16-Smartphone" data-name="16-Smartphone">
+                           <path
+                              d="m23 2h-14a3 3 0 0 0 -3 3v22a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-22a3 3 0 0 0 -3-3zm-5.39 2-.33 1h-2.56l-.33-1zm6.39 23a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1-1v-22a1 1 0 0 1 1-1h3.28l.54 1.63a2 2 0 0 0 1.9 1.37h2.56a2 2 0 0 0 1.9-1.37l.54-1.63h3.28a1 1 0 0 1 1 1z" />
+                           <path d="m17 24h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z" />
+                        </g>
+                     </svg>
+                  </i>
+                  <div>
+                     <span>Call and Order in</span>
+                     <a href="tel:647-345-1995">
+                        <h6>647-345-1995</h6>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3">
+               <div class="d-flex align-items-center justify-content-end three-menu">
+                  <div class="bar-menu">
+                     <a href="javascript:void(0)">
+                        <i class="fa-solid fa-bars"></i>
+                     </a>
+                  </div>
+                  <a href="#" class="button">Reserve a Table</a>
+               </div>
+            </div>
+            <div class="mobile-nav hmburger-menu" id="mobile-nav"
+               style="display:block; background-image:url(assets/img/patron.jpg)">
+               <div class="res-log">
+                  <a href="index.html">
+                     <img src="assets/img/logo.png" alt="Responsive Logo" class="white-logo">
+                  </a>
+               </div>
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="menu.html">Menus</a></li>
+                  <li><a href="contact.html">Contacts</a></li>
+               </ul>
+               <div>
+                  <ul class="booking">
+                     <li class="contact">
+                        <i>
+                           <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg">
+                              <g id="_16-Smartphone" data-name="16-Smartphone">
+                                 <path
+                                    d="m23 2h-14a3 3 0 0 0 -3 3v22a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-22a3 3 0 0 0 -3-3zm-5.39 2-.33 1h-2.56l-.33-1zm6.39 23a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1-1v-22a1 1 0 0 1 1-1h3.28l.54 1.63a2 2 0 0 0 1.9 1.37h2.56a2 2 0 0 0 1.9-1.37l.54-1.63h3.28a1 1 0 0 1 1 1z">
+                                 </path>
+                                 <path d="m17 24h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"></path>
+                              </g>
+                           </svg>
+                        </i>
+                        <div>
+                           <span>for booking</span>
+                           <a href="tel:647-345-1995"><span>647-345-1995 </span></a>
+                        </div>
+                     </li>
+                     <li class="contact">
+                        <i>
+                           <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg">
+                              <g id="_01-Email" data-name="01-Email">
+                                 <path
+                                    d="m29.61 12.21-13-10a1 1 0 0 0 -1.22 0l-13 10a1 1 0 0 0 -.39.79v14a3 3 0 0 0 3 3h22a3 3 0 0 0 3-3v-14a1 1 0 0 0 -.39-.79zm-13.61-7.95 11.36 8.74-11.36 8.74-11.36-8.74zm11 23.74h-22a1 1 0 0 1 -1-1v-12l11.39 8.76a1 1 0 0 0 1.22 0l11.39-8.76v12a1 1 0 0 1 -1 1z">
+                                 </path>
+                              </g>
+                           </svg>
+                        </i>
+                        <div>
+                           <span>for private dining</span>
+                           <a href="mailto:hello@mamarosabar.ca"><span>hello@mamarosabar.ca</span></a>
+                        </div>
+                     </li>
+                     <li class="contact">
+                        <i>
+                           <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg">
+                              <g id="_06-Location" data-name="06-Location">
+                                 <path
+                                    d="m25 21.61a1 1 0 1 0 -.84 1.82c1.37.57 1.84 1.23 1.84 1.57 0 1.19-4 3-10 3s-10-1.81-10-3c0-.34.47-1 1.8-1.57a1 1 0 1 0 -.8-1.82c-2.49 1.12-3 2.46-3 3.39 0 3.28 6 5 12 5s12-1.72 12-5c0-.93-.51-2.27-3-3.39z">
+                                 </path>
+                                 <path
+                                    d="m15.45 25.83a1 1 0 0 0 1.1 0c.39-.26 9.45-6.38 9.45-13.83a10 10 0 0 0 -20 0c0 7.45 9.06 13.57 9.45 13.83zm.55-21.83a8 8 0 0 1 8 8c0 5.41-6.1 10.36-8 11.77-1.9-1.41-8-6.36-8-11.77a8 8 0 0 1 8-8z">
+                                 </path>
+                                 <path d="m21 12a5 5 0 1 0 -5 5 5 5 0 0 0 5-5zm-8 0a3 3 0 1 1 3 3 3 3 0 0 1 -3-3z">
+                                 </path>
+                              </g>
+                           </svg>
+                        </i>
+                        <div>
+                           <span>location</span>
+                           <h6>5 Roncesvalles Ave, Toronto</h6>
+                        </div>
+                     </li>
+                  </ul>
+                  <ul class="social-media">
+                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  </ul>
+               </div>
+               <a href="JavaScript:void(0)" id="res-cross"
+                  style="position: absolute; top: 15px; right: 20px; color: #fff; font-size: 35px;"><i
+                     class="fa-solid fa-xmark"></i></a>
+            </div>
+         </div>
+      </div>
+   </header>
+   <section class="banner" style="background-image:url(/assets/img/background.png)">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-7">
+               <div class="title-area-data">
+                  <h2>Table Menu</h2>
+                  <p>A magical combination that sent aromas to the taste buds</p>
+               </div>
+               <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                     <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">Menus</li>
+                  <li class="breadcrumb-item active" aria-current="page">Menus 2</li>
+               </ol>
+            </div>
+            <div class="col-lg-5">
+               <div class="row">
+                  <div class="col-6">
+                     <div class="title-area-img">
+                        <img alt="title-area-img" src="/assets/img/title-area-img-1.jpg">
+                        <img alt="pata" class="pata" src="assets/img/pata.png">
+                     </div>
+                  </div>
+                  <div class="col-6">
+                     <div class="title-area-img two">
+                        <img alt="title-area-img" src="assets/img/title-area-img-2.jpg">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="gap">
+      <div class="container">
+         <div class="row align-items-start">
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Burger & Other Selections</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li class="mb-3"><i>Served with fries or coleslaw.</i></li>
+                     <li><div class="delicious"><h6>Prime Rib Burger</h6><span>$11.99</span></div><p class="pb-0">Add Cheese $0.99</p></li>
+                     <li><div class="delicious"><h6>Supreme Burger</h6><span>$14.99</span></div></li>
+                     <li><div class="delicious"><h6>Banquet Burger</h6><span>$15.99</span></div></li>
+                     <li><div class="delicious"><h6>King Burger</h6><span>$16.99</span></div></li>
+                     <li><div class="delicious"><h6>Philly Cheese Steak Sandwich</h6><span>$13.99</span></div></li>
+                     <li><div class="delicious"><h6>California Chicken Sandwich</h6><span>$15.99</span></div></li>
+                     <li><div class="delicious"><h6>Gyros on a Pita</h6><span>$12.99</span></div></li>
+                     <li><div class="delicious"><h6>Souvalaki on a Pita</h6><span>$12.99</span></div></li>
+                     <li><div class="delicious"><h6>Steak Sandwich</h6><span>$19.99</span></div></li>
+                     <li><div class="delicious"><h6>Chicken Fingers</h6><span>$12.99</span></div></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Wraps</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li class="mb-3"><i>Served with fries or chef salad. Sub with coleslaw/onion rings/soup/greek or caesar salad $2.00.</i></li>
+                     <li><div class="delicious"><h6>Grilled Chicken Caesar Wrap</h6><span>$13.99</span></div></li>
+                     <li><div class="delicious"><h6>Buffalo Chicken Wrap</h6><span>$13.99</span></div></li>
+                     <li><div class="delicious"><h6>Mama Chicken Wrap</h6><span>$15.99</span></div></li>
+                     <li><div class="delicious"><h6>Mediterranean Wrap</h6><span>$13.99</span></div></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Salad</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li class="mb-3"><i>Add Chicken $4.99 | Add Tuna $4.99</i></li>
+                     <li><div class="delicious"><h6>Greek Salad</h6><span>$7.99</span></div><p class="pb-0">Large $9.99</p></li>
+                     <li><div class="delicious"><h6>Garden Salad</h6><span>$7.99</span></div><p class="pb-0">Large $9.99</p></li>
+                     <li><div class="delicious"><h6>Caesar Salad</h6><span>$7.99</span></div><p class="pb-0">Large $9.99</p></li>
+                     <li><div class="delicious"><h6>Warm Chicken Salad</h6><span>$13.99</span></div></li>
+                     <li><div class="delicious"><h6>Warm Spinach Salad</h6><span>$13.99</span></div></li>
+                     <li><div class="delicious"><h6>Goat Cheese Salad</h6><span>$12.99</span></div></li>
+                     <li><div class="delicious"><h6>Almond and Apple Salad</h6><span>$12.99</span></div></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Kids Meal</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li><div class="delicious"><h6>Chicken Fingers</h6><span>$9.99</span></div></li>
+                     <li><div class="delicious"><h6>Mama Kids Wings</h6><span>$9.99</span></div></li>
+                     <li><div class="delicious"><h6>Grilled Cheese Sandwich</h6><span>$9.99</span></div></li>
+                     <li><div class="delicious"><h6>Pasta</h6><span>$9.99</span></div></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Dessert</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li><div class="delicious"><h6>Tiramisu</h6><span>$7.99</span></div></li>
+                     <li><div class="delicious"><h6>Coconut Pie</h6><span>$7.99</span></div></li>
+                     <li><div class="delicious"><h6>Cheese Cake</h6><span>$8.99</span></div></li>
+                     <li><div class="delicious"><h6>Apple Blossom</h6><span>$8.99</span></div></li>
+                     <li><div class="delicious"><h6>Vanilla Icecream</h6><span>$4.99</span></div></li>
+                     <li><div class="delicious"><h6>Sundae</h6><span>$4.99</span></div></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Breakfast</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li class="mb-3"><i>Served with home fries, texas toast, coffee or tea. Breakfast served all day (After-noon $1.99 extra charges).</i></li>
+                     <li><div class="delicious"><h6>All Day Breakfast</h6><span>$9.99</span></div></li>
+                     <li><div class="delicious"><h6>Mama Rosa Special</h6><span>$12.99</span></div></li>
+                     <li><div class="delicious"><h6>Lumberjack</h6><span>$14.99</span></div></li>
+                     <li><div class="delicious"><h6>Big Hunger</h6><span>$14.99</span></div></li>
+                     <li><div class="delicious"><h6>Steak & Eggs</h6><span>$19.49</span></div></li>
+                     <li><div class="delicious"><h6>French Toast or Pancake</h6><span>$11.99</span></div></li>
+                     <li><div class="delicious"><h6>Cheese Omelette</h6><span>$12.99</span></div></li>
+                     <li><div class="delicious"><h6>Western Omelette</h6><span>$12.99</span></div></li>
+                     <li><div class="delicious"><h6>Greek Wedding</h6><span>$13.99</span></div></li>
+                     <li><div class="delicious"><h6>Famous Omelette</h6><span>$13.99</span></div></li>
+                     <li><div class="delicious"><h6>Frittas Mexicans</h6><span>Ask Server</span></div></li>
+                     <li><div class="delicious"><h6>Mama Omelette</h6><span>$14.99</span></div></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Appetizers</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li><div class="delicious"><h6>Soup of the Day</h6><span>$6.99</span></div><p class="pb-0">Large $8.99</p></li>
+                     <li><div class="delicious"><h6>Mozarella Sticks</h6><span>$9.99</span></div></li>
+                     <li><div class="delicious"><h6>Jalapeno Poppers</h6><span>$9.99</span></div></li>
+                     <li><div class="delicious"><h6>Fried Calamari</h6><span>$12.99</span></div></li>
+                     <li><div class="delicious"><h6>Popcorn Shrimp</h6><span>$12.99</span></div></li>
+                     <li><div class="delicious"><h6>Mediterranian Bruschetta</h6><span>$7.99</span></div></li>
+                     <li><div class="delicious"><h6>Dill Spears Pickles</h6><span>$7.99</span></div></li>
+                     <li><div class="delicious"><h6>Spring Rolls</h6><span>$7.99</span></div></li>
+                     <li><div class="delicious"><h6>Onion Rings</h6><span>$7.99</span></div></li>
+                     <li><div class="delicious"><h6>Potato Skin</h6><span>$9.99</span></div></li>
+                     <li><div class="delicious"><h6>French Fries</h6><span>$4.99</span></div><p class="pb-0">Large $6.99</p></li>
+                     <li><div class="delicious"><h6>Poutine</h6><span>$6.99</span></div><p class="pb-0">Large $9.99 (Add $3.99 for Flavours: Buffalo Chicken, Chicken Bacon Ranch, Mama, or Philly Cheese)</p></li>
+                     <li><div class="delicious"><h6>Garlic Bread With Cheese</h6><span>$7.99</span></div><p class="pb-0">Add bacon $1.99</p></li>
+                     <li><div class="delicious"><h6>Chicken Quesadillas</h6><span>$12.99</span></div></li>
+                     <li><div class="delicious"><h6>Works (Poutine topped with bacon)</h6><span>$8.99</span></div></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Entrees</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li><div class="delicious"><h6>Mama's Famous Chicken Wings</h6><span>$14.99</span></div></li>
+                     <li><div class="delicious"><h6>Mama's Famous Chicken Wings and Fries Combo</h6><span>$17.99</span></div></li>
+                     <li><div class="delicious"><h6>Seafood Rissoto</h6><span>$21.99</span></div></li>
+                     <li><div class="delicious"><h6>Mushroom Rissoto</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Lemon Chicken Rissoto</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Teriyaki Stir Fry</h6><span>$16.99</span></div></li>
+                     <li><div class="delicious"><h6>Chicken Souvalaki</h6><span>$17.99</span></div></li>
+                     <li><div class="delicious"><h6>Salmon</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Steak Frites</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Newyork Steak</h6><span>$21.99</span></div></li>
+                     <li><div class="delicious"><h6>Fish and Chips</h6><span>$14.99</span></div></li>
+                     <li><div class="delicious"><h6>Hot Chicken</h6><span>$15.99</span></div></li>
+                     <li><div class="delicious"><h6>Hot Hamburger</h6><span>$15.99</span></div></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Pasta</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li><div class="delicious"><h6>Penne Alla Vodka</h6><span>$15.99</span></div></li>
+                     <li><div class="delicious"><h6>Spaghetti Meat Sauce</h6><span>$15.99</span></div></li>
+                     <li><div class="delicious"><h6>Spaghetti Meatballs</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Seafood Pasta</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Mama Pasta</h6><span>$17.99</span></div></li>
+                     <li><div class="delicious"><h6>Mama's Favorite Pasta</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Penne Capri</h6><span>$17.99</span></div></li>
+                     <li><div class="delicious"><h6>Penne Arabiata</h6><span>$17.99</span></div></li>
+                     <li><div class="delicious"><h6>Agnolotti</h6><span>$19.99</span></div></li>
+                     <li><div class="delicious"><h6>Fehttuchini Alfredo</h6><span>$16.99</span></div></li>
+                     <li><div class="delicious"><h6>Asiago Chicken</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Baked Cheese Tortellini</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Chicken & Spinach Linguine</h6><span>$17.99</span></div></li>
+                     <li><div class="delicious"><h6>Chorizo Sausage Penne</h6><span>$16.99</span></div></li>
+                     <li><div class="delicious"><h6>Vegetarian Penne</h6><span>$16.99</span></div></li>
+                     <li><div class="delicious"><h6>Potato Gnochhi</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Shrimp and Scallop Penne</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Linguine Al Olio</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Butternut Squash Ravioli</h6><span>$20.99</span></div></li>
+                     <li><div class="delicious"><h6>Beef Tortellini</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Smoked Salmon Penne</h6><span>$18.99</span></div></li>
+                     <li><div class="delicious"><h6>Chicken Parmesan</h6><span>$17.99</span></div></li>
+                     <li><div class="delicious"><h6>Penne Pesto Cream Sauce</h6><span>$18.99</span></div></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Build Your Own Pasta</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li><div class="delicious"><h6>Base Price</h6><span>$15.00</span></div><p class="pb-0">Choice of pasta and sauce</p></li>
+                     <li><div class="delicious"><h6>Add Extra Ingredients</h6><span></span></div><p class="pb-0">Vegetables (+$3.00), Meat (+$4.00), Seafood (+$5.00), Cheese (+$4.00)</p></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Build Your Own Pizza</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li><div class="delicious"><h6>Small</h6><span>$10.00</span></div><p class="pb-0">Additional Toppings: $1.50 ea</p></li>
+                     <li><div class="delicious"><h6>Medium</h6><span>$12.00</span></div><p class="pb-0">Additional Toppings: $2.00 ea</p></li>
+                     <li><div class="delicious"><h6>Large</h6><span>$15.00</span></div><p class="pb-0">Additional Toppings: $2.50 ea</p></li>
+                     <li><div class="delicious"><h6>X-Large</h6><span>$18.00</span></div><p class="pb-0">Additional Toppings: $3.50 ea</p></li>
+                     <li><div class="delicious"><h6>Jumbo</h6><span>$20.00</span></div><p class="pb-0">Additional Toppings: $4.50 ea</p></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-md-6 mb-5">
+               <div class="delicious-menu">
+                  <h3>Signature & Gourmet Pizzas</h3>
+                  <div class="line"></div>
+                  <ul>
+                     <li class="mb-3"><i>Prices are based on size: Small (10") $15.00 | Medium (12") $17.40 | Large (14") $22.20 | X-Large (16") $25.80 | Jumbo (18") $29.40</i></li>
+                     <li><div class="delicious"><h6>Mamarosa Special</h6></div></li>
+                     <li><div class="delicious"><h6>Canadian</h6></div></li>
+                     <li><div class="delicious"><h6>Carnivore</h6></div></li>
+                     <li><div class="delicious"><h6>Meat Deluxe</h6></div></li>
+                     <li><div class="delicious"><h6>Calabrese</h6></div></li>
+                     <li><div class="delicious"><h6>Capri</h6></div></li>
+                     <li><div class="delicious"><h6>Hawaiian</h6></div></li>
+                     <li><div class="delicious"><h6>Veggie Deluxe</h6></div></li>
+                     <li><div class="delicious"><h6>Pollo Loco</h6></div></li>
+                     <li><div class="delicious"><h6>Salsiccia e Funghi</h6></div></li>
+                     <li><div class="delicious"><h6>Atena</h6></div></li>
+                     <li><div class="delicious"><h6>Margherita</h6></div></li>
+                     <li><div class="delicious"><h6>Barese</h6></div></li>
+                     <li><div class="delicious"><h6>Primavera</h6></div></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </section>
+   <section class="gap no-top">
+      <div class="container">
+         <div class="welcome-to-foodio about-food">
+            <span>PACKAGES</span>
+            <h2>A Collection of Unique Experiences</h2>
+         </div>
+         <div class="row">
+            <div class="col-xl-6">
+               <div class="private-package">
+                  <div class="private-table">
+                     <div>
+                        <h3>Valentine's Day Private Table</h3>
+                        <ul class="higher-reach">
+                           <li>
+                              <div class="bol"></div>Candle Light Dinner
+                           </li>
+                           <li>
+                              <div class="bol"></div>Red Wine
+                           </li>
+                           <li>
+                              <div class="bol"></div>Romantic Music
+                           </li>
+                           <li>
+                              <div class="bol"></div>Quality Food
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="private-table-img">
+                     <img alt="private-table" src="https://placehold.co/360x460">
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-6">
+               <div class="private-package">
+                  <div class="private-table">
+                     <div>
+                        <h3>Birthday Party Event Special</h3>
+                        <ul class="higher-reach">
+                           <li>
+                              <div class="bol"></div>Balloons for decorations
+                           </li>
+                           <li>
+                              <div class="bol"></div>Cake and Pastries
+                           </li>
+                           <li>
+                              <div class="bol"></div>Soft Drink
+                           </li>
+                           <li>
+                              <div class="bol"></div>Dinner and Chocolates
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="private-table-img">
+                     <img alt="private-table" src="https://placehold.co/360x460">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="watch-video" style="background-image: url(assets/img/patron.jpg)">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-xl-6">
+               <div class="heading">
+                  <h6>Thanks for Watch Video</h6>
+                  <h2>Highlighting Its Unique Features and Experiences</h2>
+               </div>
+               <div class="d-flex align-items-center">
+                  <div class="year-experience">
+                     <h3>14 Years Experience</h3>
+                     <ul class="star">
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                     </ul>
+                  </div>
+                  <div class="video">
+                     <a data-fancybox="" href="https://www.youtube.com/watch?v=1La4QzGeaaQ"><i>
+                           <svg width="15" height="22" viewBox="0 0 11 17" fill="none">
+                              <path d="M11 8.5L0.5 0.272758L0.5 16.7272L11 8.5Z" fill="#fff"></path>
+                           </svg>
+                        </i>Watch Video</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-6">
+               <div class="row align-items-center">
+                  <div class="col-lg-6">
+                     <div class="watch-video-img">
+                        <img alt="img" src="https://placehold.co/254x254">
+                     </div>
+                     <div class="watch-video-img two">
+                        <img alt="img" src="https://placehold.co/254x254">
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="watch-video-img">
+                        <img alt="img" src="https://placehold.co/254x254">
+                        <img alt="arrow" class="arrow" src="assets/img/arrow.png">
+                        <h6>Great Hospitality and
+                           Entertainment</h6>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+<footer class="three" style="background-image:url(assets/img/patron-black.jpg)">
+      <div class="container gap no-bottom">
+         <div class="row">
+            <div class="col-xl-8">
+               <div class="footer-text">
+                  <a href="index.html">
+                     <img alt="logo-white" src="assets/img/logo-white-color.png">
+                  </a>
+                  <p>All produced by using fresh ingredients and serving up delicious food, every time. Including pizza
+                     and pasta dishes, as well as fresh salads, burgers, steaks, risottos and indulgent desserts</p>
+               </div>
+               <div class="link-about Newsletter">
+                  <h3>Newsletter</h3>
+                  <form>
+                     <label>Subscribe and Get Recent News and Updates</label>
+                     <input type="text" name="Enter Your Email Address" placeholder="Enter Your Email Address....">
+                     <button class="button">subscribe</button>
+                  </form>
+               </div>
+            </div>
+            <div class="col-xl-4">
+               <div class="link-about Newsletter">
+                  <h3 class="mt-0">Contact Info</h3>
+                  <ul>
+                     <li><span>Daily:</span><span class="ps-5">2:30 PM – 2:00 AM</span></li>
+                  </ul>
+               </div>
+               <ul class="booking">
+                  <li class="contact">
+                     <i>
+                        <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg">
+                           <g id="_16-Smartphone" data-name="16-Smartphone">
+                              <path
+                                 d="m23 2h-14a3 3 0 0 0 -3 3v22a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-22a3 3 0 0 0 -3-3zm-5.39 2-.33 1h-2.56l-.33-1zm6.39 23a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1-1v-22a1 1 0 0 1 1-1h3.28l.54 1.63a2 2 0 0 0 1.9 1.37h2.56a2 2 0 0 0 1.9-1.37l.54-1.63h3.28a1 1 0 0 1 1 1z" />
+                              <path d="m17 24h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z" />
+                           </g>
+                        </svg>
+                     </i>
+                     <div>
+                        <span>for booking</span>
+                        <a href="tel:647-345-1995"><span>647-345-1995 </span></a>
+                     </div>
+                  </li>
+                  <li class="contact">
+                     <i>
+                        <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg">
+                           <g id="_01-Email" data-name="01-Email">
+                              <path
+                                 d="m29.61 12.21-13-10a1 1 0 0 0 -1.22 0l-13 10a1 1 0 0 0 -.39.79v14a3 3 0 0 0 3 3h22a3 3 0 0 0 3-3v-14a1 1 0 0 0 -.39-.79zm-13.61-7.95 11.36 8.74-11.36 8.74-11.36-8.74zm11 23.74h-22a1 1 0 0 1 -1-1v-12l11.39 8.76a1 1 0 0 0 1.22 0l11.39-8.76v12a1 1 0 0 1 -1 1z">
+                              </path>
+                           </g>
+                        </svg>
+                     </i>
+                     <div>
+                        <span>for private dining</span>
+                        <a href="mailto:hello@mamarosabar.ca"><span>hello@mamarosabar.ca</span></a>
+                     </div>
+                  </li>
+                  <li class="contact">
+                     <i>
+                        <svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg">
+                           <g id="_06-Location" data-name="06-Location">
+                              <path
+                                 d="m25 21.61a1 1 0 1 0 -.84 1.82c1.37.57 1.84 1.23 1.84 1.57 0 1.19-4 3-10 3s-10-1.81-10-3c0-.34.47-1 1.8-1.57a1 1 0 1 0 -.8-1.82c-2.49 1.12-3 2.46-3 3.39 0 3.28 6 5 12 5s12-1.72 12-5c0-.93-.51-2.27-3-3.39z">
+                              </path>
+                              <path
+                                 d="m15.45 25.83a1 1 0 0 0 1.1 0c.39-.26 9.45-6.38 9.45-13.83a10 10 0 0 0 -20 0c0 7.45 9.06 13.57 9.45 13.83zm.55-21.83a8 8 0 0 1 8 8c0 5.41-6.1 10.36-8 11.77-1.9-1.41-8-6.36-8-11.77a8 8 0 0 1 8-8z">
+                              </path>
+                              <path d="m21 12a5 5 0 1 0 -5 5 5 5 0 0 0 5-5zm-8 0a3 3 0 1 1 3 3 3 3 0 0 1 -3-3z"></path>
+                           </g>
+                        </svg>
+                     </i>
+                     <div>
+                        <span>location</span>
+                        <h6>5 Roncesvalles Ave, Toronto</h6>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div style="background-color: #000;">
+         <div class="container">
+            <div class="footer-bootem">
+               <h6><span>© 2026 Mama Rosa Restaurant & Bar - Developed by <a href="https://assistia.ca"
+                        style="color: red;">
+                        Assistia</a></span></h6>
+               <div class="header-social-media">
+                  <a href="#">Facebook</a>
+                  <a href="#">Twitter</a>
+                  <a href="#">Instagram</a>
+                  <a href="#">Youtube</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- progress -->
+   <div id="progress">
+      <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+   </div>
+
+   <!-- Bootstrap Js -->
+   <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/owl.carousel.min.js"></script>
+   <!-- fancybox -->
+   <script src="assets/js/jquery.fancybox.min.js"></script>
+   <script src="assets/js/custom.js"></script>
+</body>
