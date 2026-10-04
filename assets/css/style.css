@@ -4285,3 +4285,37 @@ button.swal-button.swal-button--confirm {
 .swal-button:focus {
     box-shadow: none;
 }
+
+/* Hero image transition styles */
+.hero-transition-container {
+    position: relative;
+    width: 100%;
+}
+.hero-transition-container img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fade-transition 28s infinite;
+}
+/* Make the first image position relative so it sets the container height */
+.hero-transition-container img:first-child {
+    position: relative;
+}
+.hero-transition-container img:nth-child(1) { animation-delay: 0s; }
+.hero-transition-container img:nth-child(2) { animation-delay: 4s; }
+.hero-transition-container img:nth-child(3) { animation-delay: 8s; }
+.hero-transition-container img:nth-child(4) { animation-delay: 12s; }
+.hero-transition-container img:nth-child(5) { animation-delay: 16s; }
+.hero-transition-container img:nth-child(6) { animation-delay: 20s; }
+.hero-transition-container img:nth-child(7) { animation-delay: 24s; }
+
+@keyframes fade-transition {
+    0%   { opacity: 0; }
+    5%   { opacity: 1; }
+    15%  { opacity: 1; }
+    20%  { opacity: 0; }
+    100% { opacity: 0; }
+}
