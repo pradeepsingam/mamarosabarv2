@@ -1441,24 +1441,24 @@ footer {
     position: relative;
 }
 /* 24. welcome-to-foodio */
-.welcome-to-foodio {
+.welcome-to-mamarosa {
     text-align: center;
     width: 70%;
     margin: auto;
 }
-.welcome-to-foodio span {
+.welcome-to-mamarosa span {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.welcome-to-foodio h6 {
+.welcome-to-mamarosa h6 {
     color: #666;
     font-size: 16px;
 }
-.welcome-to-foodio p {
+.welcome-to-mamarosa p {
     padding-top: 10px;
     padding-bottom: 35px;
 }
-.welcome-to-foodio a h4 {
+.welcome-to-mamarosa a h4 {
     border-bottom: 1px solid;
     display: inline-block;
     margin-top: 10px;
@@ -1490,7 +1490,7 @@ footer {
     margin-bottom: 28px;
     align-items: center;
 }
-.quality-foods li h6 {
+.quality-foods li .dish-note {
     color: #555;
 }
 .quality-foods{
@@ -1536,7 +1536,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
-.delicious h6 {
+.delicious h4 {
     font-size: 20px;
 }
 .delicious-menu {
@@ -1582,7 +1582,7 @@ footer {
 .delicious-menu.two p{
     color: #bbb;
 }
-.delicious-menu.two h6,.delicious-menu.two h3{
+.delicious-menu.two h4,.delicious-menu.two h3{
     color: white;
 }
 /* 28. best-solutions */
@@ -1806,7 +1806,7 @@ footer {
     display: flex;
     align-items: center;
 }
-.booking .contact h6 {
+.booking .contact .utility-heading {
     color: black;
 }
 .booking li{
@@ -1908,11 +1908,11 @@ header.three .contact svg {
     width: 30px;
     height: auto;
 }
-.contact span,.contact h6{
+.contact span,.contact .utility-heading{
     color: white;
     font-size: 16px;
 }
-.contact a h6{
+.contact a .utility-heading{
     border-bottom: 1px solid;
 }
 .contact i {
@@ -2543,7 +2543,7 @@ footer.three .link-about.Newsletter ul {
 footer.three ul.booking li a span,footer.three ul.booking li h6{
     color: white;
 }
-footer.three .header-social-media a,footer.three .footer-bootem h6{
+footer.three .header-social-media a,footer.three .footer-bootem .utility-heading{
     color: #fff;
 }
 
@@ -2590,7 +2590,7 @@ ol.breadcrumb a,.breadcrumb-item.active{
 .title-area-img{
     position: relative;
 }
-.title-area-data h2 {
+.title-area-data h1 {
     font-size: 70px;
 }
 .banner {
@@ -3705,7 +3705,7 @@ ul.trending-dishes-list li a,.section-discover-menu .nav-pills .nav-link svg,.pa
 .posts.Photo a,ul.higher-reach a,.post-tags li a,.chef-text h3,.fast-food-menus h3,.three-slider button i,
 .pagination li.prev,.pagination li.next,.recent-posts li h6 a,ul.categories li a,ul.instagram-posts figure:before,
 .header-social-media a,.restaurant-span,.coctail-bar,.content-header a,.recent-news h3,.show-cart,
-.welcome-to-foodio a h4,.best-solutions-service a h3,.private-dining-text a,.category-choose a h3,
+.welcome-to-mamarosa a h4,.best-solutions-service a h3,.private-dining-text a,.category-choose a h3,
 .featured-dishes svg,.register a,.button:before,.social-media li a i,.chef-text,.link-about a,
 .pagination li a,.featured-dishes a h5,
 table.shop_table td.product-name a,.our-blog .recent-news-two h2,footer.three .header-social-media a{
@@ -4286,36 +4286,57 @@ button.swal-button.swal-button--confirm {
     box-shadow: none;
 }
 
-/* Hero image transition styles */
-.hero-transition-container {
-    position: relative;
-    width: 100%;
-}
-.hero-transition-container img {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    animation: fade-transition 28s infinite;
-}
-/* Make the first image position relative so it sets the container height */
-.hero-transition-container img:first-child {
-    position: relative;
-}
-.hero-transition-container img:nth-child(1) { animation-delay: 0s; }
-.hero-transition-container img:nth-child(2) { animation-delay: 4s; }
-.hero-transition-container img:nth-child(3) { animation-delay: 8s; }
-.hero-transition-container img:nth-child(4) { animation-delay: 12s; }
-.hero-transition-container img:nth-child(5) { animation-delay: 16s; }
-.hero-transition-container img:nth-child(6) { animation-delay: 20s; }
-.hero-transition-container img:nth-child(7) { animation-delay: 24s; }
+/* One eager responsive hero avoids loading seven layered images. */
+.hero-transition-container { width: 100%; max-width: 600px; margin: auto; aspect-ratio: 1; }
+.hero-transition-container img { display: block; width: 100%; height: auto; }
+.featured-arae-three .fastest-delivery h1 { font-size: clamp(2.25rem, 5vw, 4.5rem); line-height: 1.12; }
+.fastest-delivery .hero-eyebrow { color: #ff324d; font-family: inherit; font-size: 22px; margin-bottom: 18px; }
+.utility-heading { font-family: inherit; font-size: 16px; line-height: 1.4; margin: 0; }
+.deal-week .dish-note { background: none; padding: 0; border-radius: 0; font: inherit; }
+.deal-week .dish-price, .deal-week .dish-price span { font: 40px/1.2 'Fredoka One', sans-serif; background: none; padding: 0; color: #ff324d; }
+@media (max-width: 1200px) { .hero-content { text-align: center; } }
+/* Mama Rosa shared brand and contact details */
+.res-log .white-logo { width: 183px; height: auto; }
+.title-area-img img:not(.pata) { width: 100%; aspect-ratio: 230 / 376; object-fit: cover; }
+.visit-mamarosa p { color: #ddd; max-width: 560px; margin-bottom: 24px; }
+.contact-actions { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; }
+.directions-link { font-weight: 600; text-decoration: underline; }
+.mapouter iframe { width: 100%; }
+.link-about.Newsletter ul li { display: flex; flex-wrap: wrap; gap: 12px; }
 
-@keyframes fade-transition {
-    0%   { opacity: 0; }
-    5%   { opacity: 1; }
-    15%  { opacity: 1; }
-    20%  { opacity: 0; }
-    100% { opacity: 0; }
+.mobile-nav .res-log { display: inline-block; background: #151519; padding: 16px; border-radius: 12px; }
+#mobile-nav #res-cross { color: #151519 !important; }
+[id="burgers"], [id="pasta"], [id="appetizers"], [id="salads"], [id="pizzas"] { scroll-margin-top: 24px; }
+
+.inner-page header.three { position: relative; background: #151519; padding: 32px 0; }
+.mobile-nav a#res-cross::before { content: none; }
+
+/* Shared Sharaly popup */
+.sharaly-popup { width: 80vw; height: 90vh; height: 90dvh; max-width: none; max-height: none; padding: 0; border: 0; border-radius: 12px; overflow: hidden; background: #fff; color: #151519; box-shadow: 0 25px 50px -12px rgba(0,0,0,.25); z-index: 2147483000; }
+.sharaly-popup[open] { display: flex; flex-direction: column; }
+.sharaly-popup::backdrop { background: rgba(0,0,0,.6); }
+.sharaly-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-shrink: 0; min-height: 52px; padding: 8px 16px; font: 600 14px/1.4 sans-serif; border-bottom: 1px solid #e5e7eb; }
+.sharaly-close { border: 0; border-radius: 6px; background: #f1f5f9; color: #333; cursor: pointer; font: 28px/1 sans-serif; width: 36px; height: 36px; }
+.sharaly-frame { width: 100%; flex: 1; min-height: 0; border: 0; background: #fff; }
+.sharaly-text-trigger, .sharaly-nav-trigger { border: 0; background: transparent; color: inherit; cursor: pointer; text-align: left; padding: 0; font: inherit; }
+.booking .sharaly-text-trigger { color: inherit; font-weight: 700; }
+.sharaly-nav-trigger { display: block; width: 100%; font-weight: 700; padding: 10px 0; }
+.sharaly-close:focus-visible, .sharaly-text-trigger:focus-visible, .sharaly-nav-trigger:focus-visible { outline: 3px solid #ff324d; outline-offset: 3px; }
+@media (max-width: 767px) { .sharaly-popup { width: 96vw; height: 94vh; height: 94dvh; } }
+.sharaly-popup { margin: auto; }
+
+/* Keep ordering visible when the desktop header actions are hidden. */
+.mobile-order-button { display: none; }
+@media (max-width: 1200px) {
+  header.three .logo { gap: 16px; }
+  header.three .logo > a { flex-shrink: 1; min-width: 0; }
+  header.three .logo > a img { width: clamp(110px, 28vw, 183px); height: auto; max-width: 100%; }
+  header.three .mobile-order-button { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; margin-left: auto; min-height: 44px; padding: 10px 14px; border: 0; border-radius: 8px; background: #ff324d; color: #fff; font: 600 14px/1.2 sans-serif; white-space: nowrap; cursor: pointer; }
+  header.three .logo .bar-menu { flex-shrink: 0; }
+  .mobile-order-button:focus-visible { outline: 3px solid #ffd40d; outline-offset: 3px; }
 }
+@media (max-width: 375px) {
+  header.three .logo { gap: 10px; }
+  header.three .mobile-order-button { padding: 10px; font-size: 13px; }
+}
+.fastest-delivery .hero-eyebrow { width: auto; padding-bottom: 0; margin-bottom: 18px; }

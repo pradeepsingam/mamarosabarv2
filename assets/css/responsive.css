@@ -22,7 +22,7 @@
   header.three .booking li span{
     color: white;
   }
-  header.three .booking .contact h6 {
+  header.three .booking .contact .utility-heading {
     color: white;
     display: inline-flex !important;
   }
@@ -32,7 +32,7 @@
   header.three .mobile-nav > ul > li.menu-item-has-children:before {
     display: none;
   }
-  header.three #mobile-nav .res-log,header.three .booking .contact h6 {
+  header.three #mobile-nav .res-log,header.three .booking .contact .utility-heading {
     display: none;
   }
   header.three .mobile-nav > ul li li a {
@@ -79,7 +79,7 @@
   header.three .booking li span{
     color: white;
   }
-  header.three .booking .contact h6 {
+  header.three .booking .contact .utility-heading {
     color: white;
     display: inline-flex !important;
   }
@@ -89,7 +89,7 @@
   header.three .mobile-nav > ul > li.menu-item-has-children:before {
     display: none;
   }
-  header.three #mobile-nav .res-log,header.three .booking .contact h6 {
+  header.three #mobile-nav .res-log,header.three .booking .contact .utility-heading {
     display: none;
   }
   header.three .mobile-nav > ul li li a {
@@ -234,7 +234,7 @@
     left: -41px;
     width: 255px;
   }
-  header.three .contact span, .contact h6 {
+  header.three .contact span, .contact .utility-heading {
     font-size: 13px;
   }
   .section-discover-menu .nav-pills .nav-link {
@@ -480,7 +480,7 @@
     width: 160px;
     height: 160px;
   }
-  ul.quality-foods li h6 {
+  ul.quality-foods li .dish-note {
     font-size: 14px;
   }
   .delicious-menu {
@@ -509,7 +509,7 @@
   .private-dining img {
     width: 48%;
   }
-  .contact span, .contact h6 {
+  .contact span, .contact .utility-heading {
     font-size: 16px;
   }
   .choosecategory.owl-carousel .owl-item img{
@@ -604,7 +604,7 @@
   ul.instagram-posts img {
     height: 250px;
   }
-  .welcome-to-foodio {
+  .welcome-to-mamarosa {
     margin: auto;
     margin-bottom: 40px;
 	}
@@ -816,7 +816,7 @@
  header.two .bar-menu i {
     color: black;
 	}
-	.welcome-to-foodio {
+	.welcome-to-mamarosa {
     margin-top: 40px;
 	}
 	.featured-arae-two-img {
@@ -832,7 +832,7 @@
 	.bbtn {
     width: 51%;
 	}
-	ul.quality-foods li h6 {
+	ul.quality-foods li .dish-note {
     font-size: 18px;
 	}
 	.best-solutions-service {
@@ -933,7 +933,7 @@
 	 ul.instagram-posts img {
     height: 180px;
   }
-	.title-area-data h2 {
+	.title-area-data h1 {
     font-size: 60px;
 	}
 	ol.breadcrumb {
@@ -978,7 +978,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .footer-bootem h6{
+  .footer-bootem .utility-heading{
     margin-bottom: 20px;
   }
   .reserve-table .best-food-restaurants form {
@@ -1121,7 +1121,7 @@
 	.follow h2 {
     font-size: 40px;
   }
-  ul.quality-foods li h6 {
+  ul.quality-foods li .dish-note {
     font-size: 16px;
 	}
 		.bbtn {
@@ -1240,7 +1240,7 @@
 	.free-delivery h5 {
     font-size: 16px;
 	}
-	.welcome-to-foodio {
+	.welcome-to-mamarosa {
     width: 100%;
     margin-top: 40px;
 	}
@@ -1406,7 +1406,7 @@
 	.deal-week h2 span{
 		font-size: 24px;
 	}
-	.title-area-data h2 {
+	.title-area-data h1 {
     font-size: 50px;
 	}
 	.history-text h3 {
@@ -1563,7 +1563,7 @@
 	.single-comment .star {
     right: 10px;
   }
-	.title-area-data h2 {
+	.title-area-data h1 {
     font-size: 40px;
 	}
 	.featured-imagebox-gallery {
@@ -1773,7 +1773,7 @@
   .fastest-delivery-img .good-food-steak-upto {
     top: 36%;
   }
-  .welcome-to-foodio {
+  .welcome-to-mamarosa {
     margin-top: 0;
   }
   .featured-arae-three {
