@@ -1,0 +1,14 @@
+{
+  "name": "mamarosabarv2",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "test:cloudflare": "node --test cloudflare/worker.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.152.0"
+  }
+}

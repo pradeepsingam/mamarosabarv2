@@ -8,6 +8,36 @@ Canonical pages: /, /menu.html, /contact.html.
 From this folder, run `php -S 127.0.0.1:8000 router.php`.
 The router redirects /index.html to / and returns a real 404 for missing paths.
 
+## Cloudflare Workers (Git-connected build)
+
+The repository includes wrangler.jsonc and a pinned Wrangler dependency.
+Use these dashboard settings:
+
+- Project/Worker name: mamarosabarv2
+- Production branch: main
+- Build command: npm run build
+- Deploy command: npx wrangler deploy
+- Root directory: repository root
+
+The build copies only the public HTML, robots.txt, sitemap.xml and assets into
+dist/. Git data, PHP, deployment notes and build tools are never included.
+The build validates every public file against Cloudflare's 25 MiB asset limit.
+Keep assets.directory set to ./dist; do not change it to the repository root.
+
+Wrangler's custom build command also supports running npx wrangler deploy or
+npm run dev locally. Set the explicit build command in Workers Builds: its
+pipeline does not rely on Wrangler's custom-build configuration.
+
+Cloudflare runs cloudflare/worker.mjs for root mapping, HTTPS/apex redirects,
+and /index.html consolidation. HTML handling is set to none so /menu.html and
+/contact.html retain their canonical paths. Unknown paths use 404.html with a
+404 response. Preview workers.dev addresses remain usable. Add the custom
+production domain in Cloudflare after a successful deployment.
+
+Validate with npm run test:cloudflare and npx wrangler deploy --dry-run.
+No Cloudflare account identifiers, domain bindings or credentials are stored in
+the repository; creating a build does not itself attach the production domain.
+
 ## Apache 2.4
 
 Publish the site and assets, including .htaccess, robots.txt, sitemap.xml and
