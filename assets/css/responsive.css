@@ -217,15 +217,6 @@
   .best-solutions-service.two {
     width: 100%;
   }
-  .deal-week.two > img {
-    left: -36%;
-    top: 55px;
-    width: 53%;
-  }
-  .deal-week.two {
-    padding: 50px;
-    padding-left: 120px;
-  }
   .section-weekly .nav-pills .nav-link:before {
     left: 18px;
     top: 26px;
@@ -614,9 +605,6 @@
   .history-text span {
     left: 214px;
 	}
-  .deal-week.two > img{
-  	display: none;
-  }
   .link-about.Newsletter {
     margin-bottom: 40px;
 	}
@@ -631,14 +619,6 @@
   }
   header.three .logo .bar-menu {
     display: block;
-	}
-	.deal-week.two {
-    margin-top: 40px;
-	}
-	.deal-week.two > img {
-    left: 30%;
-    top: -36%;
-    width: 34%;
 	}
 	.three-slider.owl-carousel .owl-item img {
     width: 87%;
@@ -988,9 +968,6 @@
 	.bbtn {
     width: 34%;
 	}
-	.deal-week.two {
-    padding: 40px;
-  }
   .link-about.Newsletter form input {
     width: 100%;
 	}
@@ -1525,9 +1502,6 @@
     padding: 60px 0;
     position: relative;
   }
-  .deal-week.two {
-    margin-top: 10px;
-  }
 }
 @media(max-width: 500px){
 		img.quote {
@@ -1743,10 +1717,6 @@
   .fast-food-menus.two {
     margin-top: 115px;
   }
-  .deal-week.two {
-    margin-top: 10px;
-    padding: 15px;
-  }
   .complimentary h5 {
     padding-top: 22px;
   }
@@ -1929,6 +1899,33 @@
 		.reserve-table-text h3 {
     font-size: 26px;
 		}
+}
+@media(max-width: 575px){
+  .deal-week.two {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 24px;
+  }
+  .deal-week.two > img {
+    max-width: 280px;
+    margin: auto;
+  }
+  .fast-food-menus:not(.two) {
+    width: calc(100% - 40px);
+    min-height: 144px;
+    padding: 24px 20px 24px 80px;
+  }
+  .fast-food-menus:not(.two) .fast-food-img {
+    left: -40px;
+    margin-left: 0;
+    width: 100px;
+    height: 100px;
+  }
+  .fast-food-menus:not(.two) .fast-food-img:before {
+    top: -8px;
+    height: calc(100% + 16px);
+  }
 }
 @media(max-width: 375px){
 	h2 {
